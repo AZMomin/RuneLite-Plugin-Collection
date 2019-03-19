@@ -43,8 +43,9 @@ import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 
 @PluginDescriptor(
-        name = "Remember Clan",
-        description = "Remember a specific clan!"
+        name = "!Remember Clan",
+        description = "Remember a specific clan!",
+        enabledByDefault = false
 )
 public class RememberClanPlugin extends Plugin
 {

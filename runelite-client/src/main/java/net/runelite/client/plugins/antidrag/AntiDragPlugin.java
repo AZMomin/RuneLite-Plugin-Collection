@@ -38,7 +38,8 @@ import net.runelite.client.plugins.PluginDescriptor;
 
 import net.runelite.client.ui.overlay.OverlayManager;
 
-@PluginDescriptor(name = "Anti Drag")
+@PluginDescriptor(name = "!Anti Drag",
+        enabledByDefault = false)
 public class AntiDragPlugin extends Plugin implements KeyListener
 {
 	private static final int DEFAULT_DELAY = 5;

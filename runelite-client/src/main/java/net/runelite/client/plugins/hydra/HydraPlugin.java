@@ -15,9 +15,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 @PluginDescriptor(
-	name = "Hydra",
+	name = "!Hydra",
 	description = "Hydra Helper",
-	tags = {"Hydra", "Helper"}
+	tags = {"Hydra", "Helper"},
+    enabledByDefault = false
 )
 public class HydraPlugin extends Plugin
 {

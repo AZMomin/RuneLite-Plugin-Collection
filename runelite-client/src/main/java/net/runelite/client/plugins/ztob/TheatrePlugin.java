@@ -24,10 +24,10 @@ import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.overlay.OverlayManager;
 
 @PluginDescriptor(
-        name = "Theatre of Blood",
+        name = "!Theatre of Blood",
         description = "All-in-one plugin for Theatre of Blood",
         tags = {"ToB"},
-        enabledByDefault = true
+        enabledByDefault = false
 )
 
 public class TheatrePlugin extends Plugin {

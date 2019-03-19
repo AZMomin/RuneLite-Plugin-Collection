@@ -15,9 +15,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 @PluginDescriptor(
-        name = "Blackjack Helper",
+        name = "!Blackjack Helper",
         description = "Dynamically change default menu entry while blackjacking to make knock-out or pickpocket the default option",
-        tags = {"thieving", "npcs"}
+        tags = {"thieving", "npcs"},
+        enabledByDefault = false
 )
 public class BlackjackPlugin extends Plugin {
 

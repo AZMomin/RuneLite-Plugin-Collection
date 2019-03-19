@@ -13,9 +13,10 @@ import javax.inject.Inject;
 import java.util.List;
 
 @PluginDescriptor(
-        name = "Vorkath",
+        name = "!Vorkath",
         description = "Count vorkath attacks, and which phase is coming next",
-        tags = {"combat", "overlay", "pve", "pvm"}
+        tags = {"combat", "overlay", "pve", "pvm"},
+        enabledByDefault = false
 )
 public class VorkathPlugin extends Plugin {
 

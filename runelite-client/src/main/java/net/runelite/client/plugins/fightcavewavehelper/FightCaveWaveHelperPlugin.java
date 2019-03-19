@@ -45,9 +45,10 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import org.apache.commons.lang3.ArrayUtils;
 
 @PluginDescriptor(
-	name = "Fight Cave - Wave Helper",
+	name = "!Fight Cave - Wave Helper",
 	description = "Displays current and upcoming wave monsters in the Fight Caves",
-	tags = {"bosses", "combat", "minigame", "overlay", "pve", "pvm", "jad", "fire", "cape", "wave"}
+	tags = {"bosses", "combat", "minigame", "overlay", "pve", "pvm", "jad", "fire", "cape", "wave"},
+        enabledByDefault = false
 )
 public class FightCaveWaveHelperPlugin extends Plugin
 {

@@ -21,9 +21,10 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.ImageUtil;
 
 @PluginDescriptor(
-	name = "Freeze Timers",
+	name = "!Freeze Timers",
 	description = "PVP Freeze Timers",
-	tags = {"PvP", "Freeze", "Timers"}
+	tags = {"PvP", "Freeze", "Timers"},
+        enabledByDefault = false
 )
 public class FreezeTimersPlugin extends Plugin
 {
