@@ -90,7 +90,25 @@ public class SpellbookFixerPlugin extends Plugin
             if (config.shouldModifyEntangle())
                 modifySpell(WidgetInfo.SPELL_ENTANGLE, config.getEntanglePositionX(), config.getEntanglePositionY(), config.getEntangleSize());
 
-            setSpellHidden(WidgetInfo.SPELL_BLOOD_BLITZ, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_ICE_RUSH, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_ICE_BURST, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_BLOOD_RUSH, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_BLOOD_BLITZ, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_BLOOD_BURST, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_BLOOD_BARRAGE, config.shouldHideOthers());
+
+setSpellHidden(WidgetInfo.SPELL_SMOKE_RUSH, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_SMOKE_BLITZ, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_SMOKE_BURST, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_SMOKE_BARRAGE, config.shouldHideOthers());
+
+setSpellHidden(WidgetInfo.SPELL_SHADOW_RUSH, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_SHADOW_BLITZ, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_SHADOW_BURST, config.shouldHideOthers());
+setSpellHidden(WidgetInfo.SPELL_SHADOW_BARRAGE, config.shouldHideOthers());
+
+
+
             setSpellHidden(WidgetInfo.SPELL_VENGEANCE_OTHER, config.shouldHideOthers());
             setSpellHidden(WidgetInfo.SPELL_BIND, config.shouldHideOthers());
             setSpellHidden(WidgetInfo.SPELL_SNARE, config.shouldHideOthers());
@@ -125,7 +143,21 @@ public class SpellbookFixerPlugin extends Plugin
             if (config.shouldModifyEntangle())
                 modifySpell(WidgetInfo.SPELL_ENTANGLE, config.getEntanglePositionX(), config.getEntanglePositionY(), 24);
 
-            setSpellHidden(WidgetInfo.SPELL_BLOOD_BLITZ, false);
+setSpellHidden(WidgetInfo.SPELL_ICE_RUSH, false);
+setSpellHidden(WidgetInfo.SPELL_ICE_BURST, false);
+setSpellHidden(WidgetInfo.SPELL_BLOOD_RUSH, false);
+setSpellHidden(WidgetInfo.SPELL_BLOOD_BLITZ, false);
+setSpellHidden(WidgetInfo.SPELL_BLOOD_BURST, false);
+setSpellHidden(WidgetInfo.SPELL_BLOOD_BARRAGE, false);
+setSpellHidden(WidgetInfo.SPELL_SMOKE_RUSH, false);
+setSpellHidden(WidgetInfo.SPELL_SMOKE_BLITZ, false);
+setSpellHidden(WidgetInfo.SPELL_SMOKE_BURST, false);
+setSpellHidden(WidgetInfo.SPELL_SMOKE_BARRAGE, false);
+setSpellHidden(WidgetInfo.SPELL_SHADOW_RUSH, false);
+setSpellHidden(WidgetInfo.SPELL_SHADOW_BLITZ, false);
+setSpellHidden(WidgetInfo.SPELL_SHADOW_BURST, false);
+setSpellHidden(WidgetInfo.SPELL_SHADOW_BARRAGE, false);
+
             setSpellHidden(WidgetInfo.SPELL_VENGEANCE_OTHER, false);
             setSpellHidden(WidgetInfo.SPELL_BIND, false);
             setSpellHidden(WidgetInfo.SPELL_SNARE, false);
